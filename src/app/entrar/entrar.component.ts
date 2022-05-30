@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-entar',
-  templateUrl: './entar.component.html',
-  styleUrls: ['./entar.component.css']
+  templateUrl: './entrar.component.html',
+  styleUrls: ['./entrar.component.css']
 })
-export class EntarComponent implements OnInit {
+export class EntrarComponent implements OnInit {
 
   constructor() { }
 
