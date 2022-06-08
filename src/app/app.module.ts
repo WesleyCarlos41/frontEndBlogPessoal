@@ -13,6 +13,8 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
+import { TemaEditarComponent } from './editar/tema-editar/tema-editar.component';
+import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
 
 
 
@@ -25,6 +27,8 @@ import { TemaComponent } from './tema/tema.component';
     CadastrarComponent,
     InicioComponent,
     TemaComponent,
+    TemaEditarComponent,
+    TemaDeleteComponent,
   ],
   imports: [
     BrowserModule,
