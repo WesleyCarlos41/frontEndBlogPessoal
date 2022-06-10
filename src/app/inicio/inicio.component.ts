@@ -37,6 +37,7 @@ export class InicioComponent implements OnInit {
       //alert('Seção expirada, faça login novamente')
       this.router.navigate(['/entrar'])
     }
+    this.authService.refreshToken()
     this.getAllTemas()
     this.getAllPostagens()
   }
